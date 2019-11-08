@@ -4,7 +4,7 @@
 This method modify from here : https://blog.csdn.net/lluozh2015/article/details/74910427 
 
 # Introduction
-1.This tool is for api test , I refer to the above URL and make it more  eamagesier to use.
+1.This tool is for api test , I refer to the above URL and make it more  easier to use.
 
 2.This tool provide two method , if you input 0 , then it will compare two single api url , please refer below image:
 
