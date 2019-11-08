@@ -1,0 +1,226 @@
+
+
+< ---------------------------------------- 1 ---------------------------------------- >
+urla https://maps.googleapis.com/maps/api/geocode/json?address=台中市大甲區民權路52號&language=zh-tw&key=AIzaSyCYFTENwDERhwpxuaHUeFVzKt3L0tDH5j4
+urlb https://maps.googleapis.com/maps/api/geocode/json?address=台北市大安區新生南路二段86號&language=zh-tw&key=AIzaSyCYFTENwDERhwpxuaHUeFVzKt3L0tDH5j4
+
+
+urla  Output
+{'results': [{'address_components': [{'long_name': '52', 'short_name': '52', 'types': ['street_number']}, {'long_name': '民權路', 'short_name': '民權路', 'types': ['route']}, {'long_name': '大甲區', 'short_name': '大甲區', 'types': ['administrative_area_level_3', 'political']}, {'long_name': '台中市', 'short_name': '台中市', 'types': ['administrative_area_level_1', 'political']}, {'long_name': '台灣', 'short_name': 'TW', 'types': ['country', 'political']}, {'long_name': '437', 'short_name': '437', 'types': ['postal_code']}], 'formatted_address': '437台灣台中市大甲區民權路52號', 'geometry': {'location': {'lat': 24.3491432, 'lng': 120.6224647}, 'location_type': 'ROOFTOP', 'viewport': {'northeast': {'lat': 24.3504921802915, 'lng': 120.6238136802915}, 'southwest': {'lat': 24.3477942197085, 'lng': 120.6211157197085}}}, 'place_id': 'ChIJF8NxTgAOaTQROyyVHWn2gtM', 'plus_code': {'compound_code': '8JXC+MX 台灣台中市大甲區大甲', 'global_code': '7QP28JXC+MX'}, 'types': ['street_address']}], 'status': 'OK'}
+urlb  Output
+{'results': [{'address_components': [{'long_name': '86', 'short_name': '86', 'types': ['street_number']}, {'long_name': '新生南路二段', 'short_name': '新生南路二段', 'types': ['route']}, {'long_name': '大安區', 'short_name': '大安區', 'types': ['administrative_area_level_3', 'political']}, {'long_name': '台北市', 'short_name': '台北市', 'types': ['administrative_area_level_1', 'political']}, {'long_name': '台灣', 'short_name': 'TW', 'types': ['country', 'political']}, {'long_name': '106', 'short_name': '106', 'types': ['postal_code']}], 'formatted_address': '106台灣台北市大安區新生南路二段86號', 'geometry': {'location': {'lat': 25.0264198, 'lng': 121.5345108}, 'location_type': 'ROOFTOP', 'viewport': {'northeast': {'lat': 25.0277687802915, 'lng': 121.5358597802915}, 'southwest': {'lat': 25.0250708197085, 'lng': 121.5331618197085}}}, 'place_id': 'ChIJJab_G4epQjQRM_AYRvSiYFA', 'plus_code': {'compound_code': '2GGM+HR 台灣台北', 'global_code': '7QQ32GGM+HR'}, 'types': ['street_address']}], 'status': 'OK'}
+
+
+Compare Output
+Not Equal Position
+urla  -->  52
+urlb  -->  86
+
+
+Not Equal Position
+urla  -->  52
+urlb  -->  86
+
+
+Not Equal Position
+urla  -->  民權路
+urlb  -->  新生南路二段
+
+
+Not Equal Position
+urla  -->  民權路
+urlb  -->  新生南路二段
+
+
+Not Equal Position
+urla  -->  大甲區
+urlb  -->  大安區
+
+
+Not Equal Position
+urla  -->  大甲區
+urlb  -->  大安區
+
+
+Not Equal Position
+urla  -->  台中市
+urlb  -->  台北市
+
+
+Not Equal Position
+urla  -->  台中市
+urlb  -->  台北市
+
+
+Not Equal Position
+urla  -->  437
+urlb  -->  106
+
+
+Not Equal Position
+urla  -->  437
+urlb  -->  106
+
+
+Not Equal Position
+urla  -->  437台灣台中市大甲區民權路52號
+urlb  -->  106台灣台北市大安區新生南路二段86號
+
+
+Not Equal Position
+urla  -->  24.3491432
+urlb  -->  25.0264198
+
+
+Not Equal Position
+urla  -->  120.6224647
+urlb  -->  121.5345108
+
+
+Not Equal Position
+urla  -->  24.3504921802915
+urlb  -->  25.0277687802915
+
+
+Not Equal Position
+urla  -->  120.6238136802915
+urlb  -->  121.5358597802915
+
+
+Not Equal Position
+urla  -->  24.3477942197085
+urlb  -->  25.0250708197085
+
+
+Not Equal Position
+urla  -->  120.6211157197085
+urlb  -->  121.5331618197085
+
+
+Not Equal Position
+urla  -->  ChIJF8NxTgAOaTQROyyVHWn2gtM
+urlb  -->  ChIJJab_G4epQjQRM_AYRvSiYFA
+
+
+Not Equal Position
+urla  -->  8JXC+MX 台灣台中市大甲區大甲
+urlb  -->  2GGM+HR 台灣台北
+
+
+Not Equal Position
+urla  -->  7QP28JXC+MX
+urlb  -->  7QQ32GGM+HR
+
+
+< ---------------------------------------- 2 ---------------------------------------- >
+urla https://maps.googleapis.com/maps/api/geocode/json?address=台中市大甲區民權路52號&language=zh-tw&key=AIzaSyCYFTENwDERhwpxuaHUeFVzKt3L0tDH5j4
+urlb https://maps.googleapis.com/maps/api/geocode/json?address=台北市大安區新生南路二段86號&language=zh-tw&key=AIzaSyCYFTENwDERhwpxuaHUeFVzKt3L0tDH5j4
+
+
+urla  Output
+{'results': [{'address_components': [{'long_name': '52', 'short_name': '52', 'types': ['street_number']}, {'long_name': '民權路', 'short_name': '民權路', 'types': ['route']}, {'long_name': '大甲區', 'short_name': '大甲區', 'types': ['administrative_area_level_3', 'political']}, {'long_name': '台中市', 'short_name': '台中市', 'types': ['administrative_area_level_1', 'political']}, {'long_name': '台灣', 'short_name': 'TW', 'types': ['country', 'political']}, {'long_name': '437', 'short_name': '437', 'types': ['postal_code']}], 'formatted_address': '437台灣台中市大甲區民權路52號', 'geometry': {'location': {'lat': 24.3491432, 'lng': 120.6224647}, 'location_type': 'ROOFTOP', 'viewport': {'northeast': {'lat': 24.3504921802915, 'lng': 120.6238136802915}, 'southwest': {'lat': 24.3477942197085, 'lng': 120.6211157197085}}}, 'place_id': 'ChIJF8NxTgAOaTQROyyVHWn2gtM', 'plus_code': {'compound_code': '8JXC+MX 台灣台中市大甲區大甲', 'global_code': '7QP28JXC+MX'}, 'types': ['street_address']}], 'status': 'OK'}
+urlb  Output
+{'results': [{'address_components': [{'long_name': '86', 'short_name': '86', 'types': ['street_number']}, {'long_name': '新生南路二段', 'short_name': '新生南路二段', 'types': ['route']}, {'long_name': '大安區', 'short_name': '大安區', 'types': ['administrative_area_level_3', 'political']}, {'long_name': '台北市', 'short_name': '台北市', 'types': ['administrative_area_level_1', 'political']}, {'long_name': '台灣', 'short_name': 'TW', 'types': ['country', 'political']}, {'long_name': '106', 'short_name': '106', 'types': ['postal_code']}], 'formatted_address': '106台灣台北市大安區新生南路二段86號', 'geometry': {'location': {'lat': 25.0264198, 'lng': 121.5345108}, 'location_type': 'ROOFTOP', 'viewport': {'northeast': {'lat': 25.0277687802915, 'lng': 121.5358597802915}, 'southwest': {'lat': 25.0250708197085, 'lng': 121.5331618197085}}}, 'place_id': 'ChIJJab_G4epQjQRM_AYRvSiYFA', 'plus_code': {'compound_code': '2GGM+HR 台灣台北', 'global_code': '7QQ32GGM+HR'}, 'types': ['street_address']}], 'status': 'OK'}
+
+
+Compare Output
+Not Equal Position
+urla  -->  52
+urlb  -->  86
+
+
+Not Equal Position
+urla  -->  52
+urlb  -->  86
+
+
+Not Equal Position
+urla  -->  民權路
+urlb  -->  新生南路二段
+
+
+Not Equal Position
+urla  -->  民權路
+urlb  -->  新生南路二段
+
+
+Not Equal Position
+urla  -->  大甲區
+urlb  -->  大安區
+
+
+Not Equal Position
+urla  -->  大甲區
+urlb  -->  大安區
+
+
+Not Equal Position
+urla  -->  台中市
+urlb  -->  台北市
+
+
+Not Equal Position
+urla  -->  台中市
+urlb  -->  台北市
+
+
+Not Equal Position
+urla  -->  437
+urlb  -->  106
+
+
+Not Equal Position
+urla  -->  437
+urlb  -->  106
+
+
+Not Equal Position
+urla  -->  437台灣台中市大甲區民權路52號
+urlb  -->  106台灣台北市大安區新生南路二段86號
+
+
+Not Equal Position
+urla  -->  24.3491432
+urlb  -->  25.0264198
+
+
+Not Equal Position
+urla  -->  120.6224647
+urlb  -->  121.5345108
+
+
+Not Equal Position
+urla  -->  24.3504921802915
+urlb  -->  25.0277687802915
+
+
+Not Equal Position
+urla  -->  120.6238136802915
+urlb  -->  121.5358597802915
+
+
+Not Equal Position
+urla  -->  24.3477942197085
+urlb  -->  25.0250708197085
+
+
+Not Equal Position
+urla  -->  120.6211157197085
+urlb  -->  121.5331618197085
+
+
+Not Equal Position
+urla  -->  ChIJF8NxTgAOaTQROyyVHWn2gtM
+urlb  -->  ChIJJab_G4epQjQRM_AYRvSiYFA
+
+
+Not Equal Position
+urla  -->  8JXC+MX 台灣台中市大甲區大甲
+urlb  -->  2GGM+HR 台灣台北
+
+
+Not Equal Position
+urla  -->  7QP28JXC+MX
+urlb  -->  7QQ32GGM+HR
+
+
