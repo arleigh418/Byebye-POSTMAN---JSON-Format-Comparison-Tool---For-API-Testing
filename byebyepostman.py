@@ -45,15 +45,15 @@ def cmp_update(src_data,dst_data,jsona_title,jsonb_title):
             print(jsonb_title,' --> ',dst_data)
             print('\n')
 
-method = input('請輸入模式，輸入0為兩網址比對，輸入1為Excel File多網址比對:')
+method = input('請輸入模式，輸入0為兩api比對，輸入1為Excel File多api比對:')
 
 if method =='0':
-    url1 = input('請輸入網址1:')
-    url2 = input('請輸入網址2:')
+    url1 = input('請輸入api1:')
+    url2 = input('請輸入api2:')
 
     try:
-        json1_name = '網址1'
-        json2_name = '網址2'
+        json1_name = 'API1'
+        json2_name = 'API2'
         print(json1_name,' Output')
         x = requests.get(url1)
         print(x.json())
