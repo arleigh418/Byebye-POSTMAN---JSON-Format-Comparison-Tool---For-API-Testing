@@ -10,7 +10,7 @@ This method modify from here : https://blog.csdn.net/lluozh2015/article/details/
 
 ![image](https://github.com/arleigh418/ByebyePOSTMAN-JSON-Format-Comparison-Tool-For-API-Testing/blob/master/image/input_url.png)
 
-3.If you input 1 ,then you need to provide a excel file(.xlsx) , and input the file path、two columns name about target , please check file: test.xlsx , and it look like:
+3.If you input 1 ,then you need to provide a excel file(.xlsx) , and input the file path、two column names(target) , please check file: test.xlsx , and it look like:
 
 ![image](https://github.com/arleigh418/ByebyePOSTMAN-JSON-Format-Comparison-Tool-For-API-Testing/blob/master/image/input_file.png)
 
